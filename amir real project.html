@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="photo.gif">
+<link rel="stylesheet" href="sallu-bhai..gif">
+<link rel="stylesheet" href="motu-bhai...gif">
+<link rel="stylesheet" href="WhatsApp-Image-2022-10-23-at-9.38.gif">
+<style>
+    /* if you take "*" this so,at a tmie you making fill box so, your box will never line in series.  */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    nav::before {
+        content: "";
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    img {
+        border-radius: 16px;
+        width: 70px;
+        height: 70px;
+    }
+
+    nav ul li a {
+        display: block;
+        margin-left: 45px;
+        text-decoration: none;
+        color: #04f8f4;
+        font-weight: 550;
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        /* padding: 10px; */
+        align-items: center;
+        /* margin-left: 30px; */
+    }
+
+
+    .self {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+    }
+
+    #search {
+        border-radius: 4px;
+        width: 120px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    #button {
+        border-radius: 6px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    #button:hover {
+        color: rgb(6, 238, 250);
+        background-color: rgb(255, 238, 151);
+        font-size: 15px;
+    }
+
+    nav ul li a:hover {
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #button:hover {
+        background-color: rgb(62, 62, 243);
+    }
+
+    .start {
+        margin-top: -100px;
+        /* margin-top: -45px;
+        height: 237px; */
+        /* height: 225px; */
+        /* edit */
+        height: 141px;
+    }
+
+    .pr1 {
+        font-family: sans-serif;
+        text-align: center;
+        /* margin-top: 141px; */
+        margin-top: 112px;
+        font-size: 40px;
+    }
+
+    #prtop1 {
+        color: red;
+    }
+
+    #prtop2 {
+        color: blue;
+    }
+
+    #prtop3 {
+        color: blueviolet;
+    }
+
+    .pr2 {
+        margin-top: 6px;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: monospace;
+        text-align: center;
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+
+    .start::before {
+        content: " ";
+        background: linear-gradient(90deg, orange, blue 80%);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        /* z-index: -2; */
+        opacity: 0.6;
+        margin-top: -146px;
+    }
+
+
+    .entery {
+        display: flex;
+        justify-content: center;
+        background-color: aquamarine;
+        /* height: 452px; */
+        height: 100%;
+        /* edit */
+        /* margin-top: -96px; */
+    }
+
+    .primary {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    .img1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .img {
+        /* background-color: blue; */
+        border: 2px solid rgb(99, 99, 218);
+        border-radius: 7px;
+        height: 90px;
+        width: 90px;
+        margin: auto;
+        /* margin-top: 21px; */
+        margin-top: -81px;
+        flex-wrap: wrap;
+        animation-name: amir1;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes amir1 {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .secondary {
+        text-align: center;
+        padding: 12px;
+        display: flex;
+        font-style: italic;
+        justify-content: center;
+        color: #b72b2b;
+        font-family: cursive;
+        font-size: 22px;
+    }
+
+    .secondary1 {
+        margin-top: 25px;
+    }
+
+    #services {
+        margin: 34px;
+        display: flex;
+
+    }
+
+    .img2 {
+        /* background-color: blue; */
+        border: 4px solid rgb(99, 99, 218);
+        border-radius: 7px;
+        height: 90px;
+        width: 90px;
+        margin: auto;
+        margin-top: -83px;
+        /* margin-top: -81px; */
+        flex-wrap: wrap;
+        animation-name: amir1;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes amir1 {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    #services .box {
+        background-color: bisque;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 3px;
+        width: 24%;
+    }
+
+    .img3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .pr3 {
+        margin: 4px;
+        color: red;
+        font-family: system-ui;
+    }
+
+    .third {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .mid::before {
+        content: " ";
+        background: linear-gradient(135deg, blue, rgb(30, 30, 99) 80%);
+        position: absolute;
+        z-index: -1;
+        height: 55%;
+        width: 100%;
+        opacity: 0.8;
+    }
+
+    .region {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .box1 {
+        background-color: rgb(223, 134, 134);
+        border: 2px solid brown;
+        /* border-radius: 8px; */
+        height: 70px;
+        width: 70px;
+        margin: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui;
+    }
+
+    #set1 {
+        border-radius: 130px;
+    }
+
+    #set2 {
+        border-radius: 25px;
+    }
+
+    #set3 {
+        border-radius: 15px;
+    }
+
+    /* #set4{
+        border-radius: 9px;
+    } */
+    .fourth {
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .info {
+        display: flex;
+        border: 2px solid #a49999;
+        margin: 10px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+
+    .logo2 {
+        height: 150px;
+        width: 150px;
+        margin-left: 41px;
+        margin-top: 44px;
+        margin-bottom: 30px;
+        border-radius: 60px;
+    }
+
+    .pr4 {
+        /* display: flex; */
+        width: 75%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin: 50px;
+        font-family: system-ui;
+    }
+
+    .line1 {
+        width: 160px;
+        display: block;
+        margin: 5px auto;
+        background-color: black;
+        border-radius: 70px;
+        height: 2px;
+    }
+
+    .end {
+        display: flex;
+        justify-content: center;
+        background-color: #a49999;
+        border-radius: 10px;
+        margin-top: -8px;
+        /* height: 100px; */
+    }
+
+    .startlist {
+        height: 60px;
+        font-size: 30px;
+        font-weight: 200;
+        margin-top: 10px;
+        font-family: sans-serif;
+    }
+
+    .startpr {
+        margin: 20px;
+        text-align: center;
+        font-family: system-ui;
+    }
+
+    .anyone {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box3 {
+        border: 3px solid black;
+        border-radius: 8px;
+        width: 32.5%;
+        margin-top: 1.3px;
+    }
+
+    .sixth {
+        justify-content: center;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .pr7 {
+        margin-top: 10px;
+        text-align: center;
+        font-family: system-ui;
+    }
+
+    .apply {
+        text-align: center;
+        /* cursor: pointer; */
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .apply1 {
+        cursor: pointer;
+    }
+
+    /* shadow */
+    .apply1 {
+        border: 2px solid rgb(110, 107, 107);
+        border-radius: 12px;
+        /* margin-top: 5px; */
+        color: rgb(62, 60, 60);
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 12px 10px 20px rgb(34, 22, 208);
+        box-shadow: 10px 12px 25px #807878;
+
+        /* animation-name: shadow1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite; */
+        /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+        display: inline-flex;
+        /* width: 670px;
+        height: 200px; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        height: 35px;
+        width: 147px;
+        /* display: inline-block; */
+    }
+
+    @keyframes shadow1 {
+        0% {
+            color: rgb(243, 185, 185);
+            text-shadow: 12px 10px 20px red;
+        }
+
+        25% {
+            color: aqua;
+            text-shadow: 12px 10px 20px blue;
+        }
+
+        75% {
+            color: rgb(48, 140, 221);
+            text-shadow: 12px 10px 20px pink;
+        }
+
+        100% {
+            color: red;
+            text-shadow: 12px 10px 20px rgb(150, 56, 56);
+        }
+    }
+
+    .apply1:hover {
+        height: 33px;
+        width: 144px;
+        cursor: pointer;
+        color: rgb(216, 137, 137);
+        border: 2px solid white;
+        border-radius: 16px;
+        text-shadow: 12px 10px 20px rgb(10, 10, 10);
+        box-shadow: none;
+        animation-name: shadow1;
+        animation-duration: 5s;
+        animation-iteration-count: 10;
+    }
+
+    .about {
+        background-color: black;
+        margin-top: -20px;
+        padding-bottom: 20px;
+    }
+
+    .fifth {
+        text-align: center;
+        margin: 20px;
+        font-size: 16px;
+        color: antiquewhite;
+        font-family: sans-serif;
+        padding-top: 20px;
+    }
+
+    .pr6 {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        color: aliceblue;
+        font-family: system-ui;
+    }
+
+    .hello {
+        margin-top: -3px;
+        /* color: rgb(165, 185, 202); */
+        border: 1px solid white;
+        border-radius: 70px;
+    }
+
+    #prd1 {
+        color: #38c302;
+    }
+
+    #prd2 {
+        color: green;
+    }
+
+    #prd3 {
+        color: red;
+    }
+
+    #prd4 {
+        color: coral;
+    }
+
+    /* edit for new site */
+    /* .box2{
+        content: " ";
+        background-color: #b72b2b;
+        height: 3.6%;
+        width: 10%;
+        position: absolute;
+        z-index: -1;
+        opacity: 1;
+    } */
+    .read {
+        color: blue;
+        /* position: fixed; */
+    }
+
+    .sam {
+        color: blue;
+        animation-name: amir2;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes amir2 {
+        0% {
+            color: rgb(243, 185, 185);
+            /* text-shadow: 12px 10px 20px red; */
+        }
+
+        25% {
+            color: aqua;
+            /* text-shadow: 12px 10px 20px blue; */
+        }
+
+        75% {
+            color: rgb(48, 140, 221);
+            /* text-shadow: 12px 10px 20px pink; */
+        }
+
+        100% {
+            color: red;
+            /* text-shadow: 12px 10px 20px rgb(150, 56, 56); */
+        }
+    }
+
+    .enterywhy::before {
+        content: " ";
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 1;
+    }
+
+    .enterywhy {
+        margin-top: 12px;
+    }
+
+    .free {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12px 14px;
+    }
+
+    .free1 {
+        text-align: center;
+        margin-top: 8px;
+        font-family: sans-serif;
+        font-size: 19px;
+    }
+
+    /* .box2::before{
+        content: " ";
+        background-color: whitesmoke;
+        width: 481px;
+        height: 237px;
+
+    } */
+
+    .box2 {
+        /* content: " "; */
+        background-color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 38%;
+        margin: 0px auto;
+        /* margin-top: 7px; */
+        margin-top: 40px;
+        /* z-index: -1;
+        position: absolute; */
+    }
+
+    .secondary1 {
+        text-align: center;
+        margin-top: 15px;
+        font-family: sans-serif;
+    }
+
+    .wh3 {
+        text-align: center;
+        font-family: system-ui;
+    }
+
+    /* #boxd2 {
+        margin-top: 40px;
+    } */
+
+    /* edit rendom */
+    b {
+        color: rgb(133, 133, 219);
+    }
+
+    /* start with mediaquery */
+    @media(min-width: 816px) and (max-width: 1187px) {
+        .logo2 {
+            margin: 35px 18px;
+        }
+
+        .pr4 {
+            margin: 30px 4px;
+        }
+    }
+
+    @media(min-width: 597px) and (max-width: 815px) {
+        .logo2 {
+            margin: 30px 10px;
+        }
+
+        .pr4 {
+            width: 70%;
+            margin: 20px 1px;
+        }
+    }
+
+    @media(min-width: 516px) and (max-width: 596px) {
+        .logo2 {
+            margin: 30px 10px;
+        }
+
+        .pr4 {
+            width: 65%;
+            margin: 20px 1px;
+        }
+    }
+
+    @media(min-width: 404px) and (max-width: 515px) {
+        .logo2 {
+            width: 130px;
+            height: 130px;
+            margin: 30px 10px;
+        }
+
+        .pr4 {
+            width: 60%;
+            margin: 20px 1px;
+        }
+    }
+
+    @media(min-width: 340px) and (max-width: 403px) {
+        .logo2 {
+            width: 120px;
+            height: 120px;
+            margin: 30px 10px;
+        }
+
+        .pr4 {
+            width: 55%;
+            margin: 20px 1px;
+        }
+    }
+
+    /* @media(min-width: 368px) and (max-width: 406px){
+        .pr4{
+            width: 50%;
+        }
+    }
+    
+    @media(min-width: 770px) and (max-width: 950px) {} */
+
+    @media (min-width: 688px) and (max-width:880px) {
+        .start {
+            margin-top: -112px;
+            /* height: 151px; */
+            height: 144px;
+        }
+
+        .pr1 {
+            margin-top: 127px;
+        }
+
+        .box2 {
+            width: 65%;
+        }
+
+
+        .start::before {
+            margin-top: -105px;
+        }
+
+        .entery {
+            margin-top: -3px;
+        }
+    }
+
+    @media(min-width: 567px) and (max-width: 720px) {
+        .box3 {
+            width: 75%;
+        }
+    }
+    /* @media(min-width: 480px) and (max-width: 566px) {
+        
+    } */
+
+    @media(min-width: 630px) and (max-width: 688px) {
+        .pr2 {
+            margin-right: 50px;
+            margin-left: 60px;
+        }
+
+        /* edit */
+        .box2 {
+            width: 65%;
+        }
+
+        .start {
+            height: 224px;
+        }
+    }
+
+    @media(min-width: 567px) and (max-width: 630px) {
+        nav ul li a {
+            margin-left: 14px;
+        }
+
+        .box2 {
+            width: 65%;
+        }
+
+        #search {
+            width: 85px;
+            /* edit */
+            margin-right: 8px;
+        }
+
+        #button {
+            /* margin-right: 26px; */
+            margin-right: -38px;
+        }
+
+        .pr2 {
+            margin-right: 25px;
+            margin-left: 20px;
+        }
+
+        /* edit */
+        .start {
+            height: 224px;
+        }
+    }
+
+    @media(min-width: 448px) and (max-width: 567px) {
+        nav ul li a {
+            margin-left: 10px;
+        }
+
+        .self {
+            /* margin-top: -74px; */
+            margin-right: 9px;
+        }
+
+        .box2 {
+            width: 65%;
+        }
+
+        #search {
+            width: 75px;
+            /* edit */
+            margin-right: 3px;
+        }
+
+        .start {
+            margin-top: -142px;
+        }
+
+        .pr1 {
+            margin-top: 142px;
+            /* edit */
+            margin-top: 154px;
+        }
+
+        /* edit */
+        #button {
+            margin-right: -6px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+    }
+
+    @media(min-width: 360px) and (max-width: 422px) {
+        nav ul {
+            margin-top: 68px;
+            margin-left: -26px;
+        }
+
+        .box2 {
+            width: 65%;
+        }
+
+        .navbar {
+            height: 88px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+    }
+
+    @media(min-width: 421px) and (max-width: 448px) {
+        .navbar {
+            height: 101px;
+        }
+
+        .nav ul {
+            margin-top: -19px;
+        }
+
+        .pr1 {
+            margin-top: 115px;
+            font-size: 33px;
+        }
+
+        .box2 {
+            width: 65%;
+        }
+
+        .self {
+            margin-top: -124px;
+            margin-right: 9px;
+        }
+        #search{
+            margin-right: 3px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+    }
+
+    @media(min-width: 422px) and (max-width: 567px) {
+        .box2 {
+            width: 65%;
+        }
+
+        .start::before {
+            margin-top: -133px;
+        }
+
+        .entery {
+            margin-top: -83px;
+        }
+
+        .pr2 {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+
+        .pr6 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    @media(min-width: 360px) and (max-width: 423px) {
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        nav ul {
+            margin-left: -24px;
+        }
+
+        nav ul li a {
+            margin-left: 17px;
+        }
+
+        .self {
+            margin-top: -65px;
+            margin-right: 6px;
+        }
+
+        .box2 {
+            width: 75%;
+        }
+
+        #search {
+            width: 88px;
+        }
+
+        .start {
+            margin-top: -120px;
+            height: 232px;
+        }
+
+        .start::before {
+            margin-top: -114px;
+        }
+
+        .pr2 {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        #services .box {
+            width: 46%;
+        }
+
+        .startlist {
+            height: 40px;
+            font-size: 25px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+
+        .pr6 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    @media(min-width: 335px) and (max-width: 360px) {
+        .navbar {
+            height: 90px;
+        }
+
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        nav ul {
+            margin-left: -29px;
+            margin-top: 72px;
+        }
+
+        nav ul li a {
+            margin-left: 17px;
+        }
+
+        .self {
+            margin-top: -65px;
+            margin-right: 6px;
+        }
+
+        .box2 {
+            width: 75%;
+        }
+
+        #search {
+            width: 80px;
+        }
+
+        .start {
+            margin-top: -120px;
+            height: 240px;
+        }
+
+        .start::before {
+            margin-top: -110px;
+        }
+
+        .pr2 {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        #services .box {
+            width: 46%;
+        }
+
+        .startlist {
+            height: 40px;
+            font-size: 25px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+
+        .pr6 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    @media(min-width: 320px) and (max-width: 335px) {
+        .navbar {
+            height: 90px;
+        }
+
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        nav ul {
+            margin-left: -29px;
+            margin-top: 72px;
+        }
+
+        nav ul li a {
+            margin-left: 17px;
+        }
+
+        .self {
+            margin-top: -65px;
+            margin-right: 6px;
+        }
+
+        .box2 {
+            width: 75%;
+        }
+
+        #search {
+            width: 80px;
+        }
+
+        .start {
+            margin-top: -120px;
+            height: 243px;
+        }
+
+        .start::before {
+            margin-top: -109px;
+        }
+
+        .pr2 {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        #services .box {
+            width: 46%;
+        }
+
+        .startlist {
+            height: 40px;
+            font-size: 22px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+
+        .pr6 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    @media(min-width: 280px) and (max-width: 320px) {
+        .navbar {
+            height: 85px;
+        }
+
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        nav ul {
+            margin-left: -29px;
+            margin-top: 68px;
+        }
+
+        nav ul li a {
+            margin-left: 17px;
+        }
+
+        .self {
+            margin-top: -105px;
+            margin-right: 6px;
+        }
+
+        .box2 {
+            width: 75%;
+        }
+
+        #search {
+            width: 70px;
+        }
+
+        .start {
+            margin-top: -120px;
+            /* height: 243px; */
+            height: 218px;
+        }
+
+        .start::before {
+            margin-top: -109px;
+        }
+
+        .pr1 {
+            font-size: 23px;
+        }
+
+        .pr2 {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+
+        .box1 {
+            margin: 17px;
+        }
+
+        .box2 {
+            width: 75%;
+        }
+
+        #services {
+            margin: 18px;
+        }
+
+        #services .box {
+            width: 45%;
+        }
+
+        .startlist {
+            height: 40px;
+            font-size: 22px;
+        }
+
+        .box3 {
+            width: 75%;
+        }
+
+        .pr6 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    /* edit */
+    @media(min-width: 345px) and (max-width: 417px) {
+        .self{
+            margin-top: -113px;
+        }
+        #search {
+            margin-right: 3px;
+        }
+
+        .pr1 {
+            font-size: 27px;
+            margin-top: 138px;
+        }
+
+    }
+
+    @media(min-width: 307px) and (max-width: 345px) {
+        nav ul {
+            margin-left: -45;
+        }
+
+        .navbar {
+            height: 94px;
+        }
+
+        .start {
+            margin-top: -124px;
+        }
+
+        .pr1 {
+            margin-top: 140px;
+            font-size: 26px;
+        }
+    }
+
+    @media(min-width: 302px) and (max-width: 306px) {
+        .pr1 {
+            margin-top: 136px;
+        }
+
+        nav ul {
+            margin-left: -54px;
+        }
+
+        .self {
+            margin-right: 40px;
+        }
+
+        #button {
+            margin-right: -36px;
+        }
+    }
+
+    @media(min-width: 567px) and (max-width: 630px) {
+        .self {
+            margin-right: 42px;
+        }
+    }
+    @media(min-width: 417px) and (max-width: 420px) {
+        .pr1{
+            font-size: 30px;
+            margin-top: 138px;
+        }
+
+    }
+
+    @media(min-width: 280px) and (max-width: 285px) {
+        nav ul {
+            margin-left: -58px;
+        }
+
+        nav ul li a {
+            margin-left: 14px;
+        }
+
+        .self {
+            margin-right: 38px;
+        }
+
+        #button {
+            margin-right: -36px;
+        }
+
+        .start {
+            height: 212px;
+        }
+
+        .pr1 {
+            margin-top: 133px;
+            font-size: 22px;
+        }
+    }
+
+    @media(min-width: 285px) and (max-width: 302px) {
+        .self {
+            margin-right: 40px;
+        }
+
+        #button {
+            margin-right: -36px;
+        }
+
+        nav ul {
+            margin-left: -57px;
+        }
+
+        .pr1 {
+            margin-top: 134px;
+        }
+    }
+    @media(min-width: 321px) and (max-width: 344px){
+        .self{
+            margin-top: -113px;
+        }
+    }
+    @media(min-width: 307px) and (max-width: 312px){
+        nav ul{
+            margin-top: 4px;
+            margin-left: 7px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="logo1">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c6842145490803.5832fe1fb5050.jpg"
+                alt="error">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact as</a></li>
+        </ul>
+        <div class="self">
+        <div class="self1">
+            <input type="search" name="mysearch" id="search" placeholder="search">
+        </div>
+        <form action="sign.html" class="self2">
+            <input type="submit" value="sign in" id="button">
+        </form>
+        </div>
+    </nav>
+
+    <section class="start">
+        <p class="pr1">welcome to our website</p>
+        <p class="pr2" id="prtop1">So, let's come and</p>
+        <p class="pr2" id="prtop2">do fight</p>
+        <p class="pr2" id="prtop3">for make future bright.</p>
+    </section>
+
+    <section class="enterywhy">
+        <hr class="hello1">
+        <h2 class="free">Your Problem Our Solution You Happy Our India Happy</h2>
+        <h2 class="free1">Why FreeMind?</h2>
+        <div class="services1">
+            <div class="box2" id="boxd2">
+                <div class="img1">
+                    <img src="https://www.mindyog.com/images/qualified.svg" alt="error">
+                </div>
+                <p class="img"></p>
+                <h3 class="secondary1">Top Expertise</h3>
+                <p class="wh3" id="whd1">Psychologists are highly experienced in their respective fields, having M.phil,
+                    MSc and MA degrees in clinical psychology. Most of them are RCI Registered, and Licensed.</p>
+            </div>
+            <div class="box2">
+                <div class="img1">
+                    <img src="https://www.mindyog.com/images/secret-file.svg" alt="error" width="70">
+                </div>
+                <p class="img"></p>
+                <h3 class="secondary1">Confidentiality</h3>
+                <p class="wh3" id="whd2">We respect your privacy and therefore your identity and information you provide
+                    remain completely confidential with us.</p>
+            </div>
+            <div class="box2">
+                <div class="img1">
+                    <img src="https://www.mindyog.com/images/alms.svg" alt="error">
+                </div>
+                <p class="img"></p>
+                <h3 class="secondary1">Affordability</h3>
+                <p class="wh3" id="whd3">Mindyog aims to ensure that mental wellness services are affordable for all
+                    hence, offer all its services at the most affordable prices for the given quality.</p>
+            </div>
+            <div class="box2">
+                <div class="img1">
+                    <img src="https://www.mindyog.com/images/24_7-hours.svg" alt="error">
+                </div>
+                <p class="img"></p>
+                <h3 class="secondary1">Accessibility</h3>
+                <p class="wh3" id="whd4">You can reach us any time of the day. We are just a call/text/email away.</p>
+            </div>
+        </div>
+    </section>
+    <hr class="hello1">
+
+    <section class="entery">
+        <h1 class="primary">Services</h1>
+        <div id="services">
+            <div class="box">
+                <div class="img3">
+                    <img src="https://leverageedu.com/blog/wp-content/uploads/2019/11/Educational-Counselling-1-760x440.png"
+                        alt="">
+                </div>
+                <p class="img2"></p>
+                <h3 class="secondary">study Counselling</h3>
+                <p class="pr3" id="prd1">Counseling generally refers to the provision of assistance or guidance that
+                    eventually helps solve personal, social or mental problems. A professional individual normally
+                    administers it. It normally takes a number of forms including individual counseling, group
+                    counseling, and couples counseling.</p>
+            </div>
+            <div class="box">
+                <div class="img3">
+                    <img src="https://www.yello.ae/img/ae/l/1520918788-95-life-psychological-counseling-center-dmcc.jpg"
+                        alt="error">
+                </div>
+                <p class="img2"></p>
+                <h3 class="secondary">Life Problems</h3>
+                <p class="pr3" id="prd2">The Life Problems Inventory was developed to assess the four core BPD problem
+                    areas as described by Linehan and as targeted in DBT skills training. Method: The Life Problems
+                    Inventory, a 60-item self-report instrument, was developed to assess Emotion Dysregulation,
+                    Impulsivity, Interpersonal Chaos, and Confusion</p>
+            </div>
+            <div class="box">
+                <div class="img3">
+                    <img src="https://media.istockphoto.com/vectors/business-brain-dollar-sign-vector-id522401783?k=6&m=522401783&s=612x612&w=0&h=uWhG0k2TYy8LnqvKsCy5_YMrp8kuuXcOFwN7bt03lDk="
+                        alt="">
+                </div>
+                <p class="img2"></p>
+                <h3 class="secondary">Financial Problems</h3>
+                <p class="pr3" id="prd3">Money is one of the biggest sources of stress for most couples. Yet, most
+                    couples don’t ever seek any help for financial problems. Often, people say they aren’t sure who to
+                    even turn to. Most people feel they can question therapy help with financial problems.</p>
+            </div>
+            <div class="box">
+                <div class="img3">
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/467/256/original/vector-counseling-support-group-flat-icons-set.jpg"
+                        alt="">
+                </div>
+                <p class="img2"></p>
+                <h3 class="secondary">Other Type Problems</h3>
+                <p class="pr3" id="prd4">Every day brings something new. Sometimes what life brings is happiness on
+                    other occasions it is not. But life is never the same. And things change. But life is always somehow
+                    little bit complicated. Not only because life is not predictable: we do not know today what is going
+                    to happen in a year’s time or what is going to happen next year. But also because life has got its
+                    positive and its negative sides.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <section class="intro">
+        <div class="startform">
+            <h2 class="fourth">Our Faculty</h2>
+        </div>
+        <hr class="line1">
+        <div class="info">
+            <img class="logo2"
+                src="https://th.bing.com/th/id/R.0e14fc0ef2ffd4bfb788af0e56c38b2d?rik=ugWdrxoRse40BQ&riu=http%3a%2f%2fwelcomenri.com%2fTop-News%2fthumb%2fscientists-of-india8.jpg&ehk=72SiB03t2GXERCiCfhP14fOziq5H3nUkUsO5kk1ZDVY%3d&risl=&pid=ImgRaw&r=0"
+                alt="error">
+            <p class="pr4"><b>Satyendra Nath Boss</b> was an indian <b> mathematician</b> and <b> physicist
+                </b>specializing in <b> theoreticl physics</b>.He is the best known for his work on<b> quantum
+                    mechanics</b> in the early 1920 ,he was awarded india's second highest civillian award,the <b> Padma
+                    vibhushan</b> in <b> 1954</b> by the <b> Government of India</b>.He was a lecture in the <b>
+                    physics</b> departemnt of <b>Mirt University</b> of <b>America</b>.Along Saha Bose prepared the
+                First book in English based on Germen and French translation on original paper on Einstein's special and
+                general relativity in 1919.Bose set up whole new depertement, including laboratories, to teach advanced
+                courses for MSc and BSc honours and taught <b>Thermodynamics</b> as well as James clerk <b>Maxwell</b>'s
+                theory of <b>electromagnetism</b>.
+            </p>
+        </div>
+        <div class="info">
+            <img class="logo2" src="https://th.bing.com/th/id/OIP.PEwrkZEtgzd9LD8LJ9FkcAHaHa?pid=ImgDet&rs=1"
+                alt="error">
+            <p class="pr4"><b>Avul Pakir Jainulabdeen(APJ) Abdul Kalam</b> 15 October 1931 – 27 July 2015) was an Indian
+                aerospace
+                scientist and statesman who served as the 11th President of India from 2002 to 2007. He spent the next
+                four decades as a scientist and science administrator, mainly at the Defence Research and Development
+                Organisation (DRDO) and Indian Space Research Organisation (ISRO)</p>
+        </div>
+        <div class="info">
+            <img class="logo2"
+                src="https://2.bp.blogspot.com/-nmr79bprhJY/V9-jhOKPDEI/AAAAAAAABFA/y37BwbWF8JIW8co_ria-owhsJNQUHBjZQCLcB/s1600/swami-vivekananda-hd-wallpaper.jpeg"
+                alt="error">
+            <p class="pr4"><b>Swami Vivekananda</b> 12 January 1863 – 4 July 1902), born Narendranath Datta (Bengali:
+                [nɔrendronatʰ dɔto]), was an Indian Hindu monk, philosopher, author, religious teacher, and the chief
+                disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and
+                Yoga to the Western world;</p>
+        </div>
+    </section>
+    <section class="end">
+        <div class="startlist">
+            <h1>Counselling Form</h1>
+        </div>
+        <div class="startpr">
+            <p class="pr5">I Hope this Counselling services plateform will be 100% help full and if you want more
+                information about us so, you can call as and we are promise to reply within 12hr.I hope after this
+                Counselling your life will be more enjoyable and healthe.<b>Thanks, Have a good day.</b></p>
+        </div>
+        <div class="anyone">
+            <div class="box3">
+                <h2 class="sixth">Online</h2>
+                <p class="pr7">In Online Counselling we are taking your Counselling through video calling and in one
+                    video calling many lots of people are connected So that, you now who to solve our small problems.If
+                    want alone Counselling so,you can say as.</p>
+                <form action="amir.html" class="apply">
+                    <input type="submit" value="Counselling" class="apply1">
+                </form>
+            </div>
+            <div class="box3">
+                <h2 class="sixth">Ofline</h2>
+                <p class="pr7">In Ofline Counselling you are coming on our Counselling center physically and then we
+                    take your Counselling.And if you want join group counseling physically.And if you want to alone
+                    physically you want to fill Door Counselling.</p>
+                <form action="amir.html" class="apply">
+                    <input type="submit" value="Counselling" class="apply1">
+                </form>
+            </div>
+            <div class="box3">
+                <h2 class="sixth">Door</h2>
+                <p class="pr7">In Door Counselling we are coming at your home or at your sending location.But In this
+                    Counselling our counselor will be coming with in fixied time, But in this Counselling you can set
+                    date day and time.</p>
+                <form action="amir.html" class="apply">
+                    <input type="submit" value="Counselling" class="apply1">
+                </form>
+            </div>
+        </div>
+        <!-- <form action="amir.html" class="apply">
+            <input type="submit" value="Apply Now" class="apply1">
+        </form> -->
+    </section>
+    <hr class="new1">
+    <section class="mid">
+        <h2 class="third">Our Sponser</h2>
+        <div class="region">
+            <img src="https://govtjobsalert.in/wp-content/uploads/2020/06/Indian-Post-Logo-GovtJobsAlert-1.png"
+                alt="error" class="box1" id="set1">
+            <img src=https://th.bing.com/th/id/R.bc63153dfe404a20d62dba4ba0189e07?rik=%2fAlUtbsGxWLlZg&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2014%2f09%2fApple-inc-logo.png&ehk=NZlJPmxPJO5TmT4MyvRSp3BJBtGeG9okYQDRx68c7Cs%3d&risl=&pid=ImgRaw&r=0""
+                alt="error" class="box1" id="set2">
+            <img src="https://img2.cgtrader.com/items/2590278/0572f24550/google-logo-v1-002-3d-model-low-poly-max-obj-3ds-fbx-ma-stl.jpg"
+                alt="error" class="box1" id="set3">
+            <img src="https://thumbs.dreamstime.com/b/lion-capital-ashoka-indian-flag-color-emblem-india-watercolor-texture-backdrop-73773815.jpg"
+                alt="" class="box1" id="set4">
+        </div>
+    </section>
+    <hr>
+    <hr class="hello">
+    <div class="about">
+        <h1 class="fifth">About us</h1>
+        <p class="pr6">Hello Friend, Thanks for coming to our website, and this website is not purpose to give you only
+            advise, our purpose is that to help you like your collage life and in your whole life. And if you have any
+            query adout our website and Counselling appoirment So you can contact as <b>96362605421</b> or Email as
+            <b>amirdelhi65@gmail.com</b>.
+        </p>
+    </div>
+
+</body>
+
+</html>

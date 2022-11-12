@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=heder, initial-scale=1.0">
+    <title>amir</title>
+    <style>
+        /* #best {
+            background-color: aquamarine;
+            border: 5px solid red;
+            width: 200px;
+            padding: 35px 45px 50px 30px;
+            margin: 30px;
+
+
+        } */
+
+        h2 {
+            background-color: red;
+            font-weight: bold;
+            font-style: oblique;
+            height: 26px;
+            width: 80px;
+            border: 2px solid blue;
+            border-top-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+            padding-left: 8px;
+        }
+
+        label {
+            color: violet;
+            font-style: italic;
+        }
+
+        #sumit {
+            background-color: rgb(123, 123, 231);
+            border-radius: 6px;
+        }
+
+        #sumit:hover {
+            background-color: blue;
+            color: black;
+        }
+
+        #reset:hover {
+            color: black;
+            background-color: red;
+        }
+
+        #reset {
+            border: 1px solid black;
+            background-color: rgb(227, 110, 110);
+            border-radius: 6px;
+        }
+
+        input {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <details>
+        <summary>rough work</summary>
+        <div>
+            <h3>Hello Word</h3>
+            <p id="best">Hello this is wasim today ,I want reremember or relearen our wwhole
+                <strong><em>HTML</em></strong><b><i>This
+                        is my today task</i></b>.18/09/2022 Now today i am starting background-image,border,padding
+                types and margen.I will try to become to be best in this <strong><em>CSS.</em></strong>
+            </p>
+        </div>
+        <hr>
+        <ul type="circle">
+            <li>This is my first list</li>
+            <li>This is my second list</li>
+        </ul>
+        <ol type="i">
+            <li>This is my first number list</li>
+            <li>This is my second number list</li>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>CLASS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><em>washim</em></td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </details> -->
+    <h2>Form</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myname" id="name" placeholder="enter youre name">
+        </div>
+        <br>
+        <label for="namef">Father Name</label>
+        <div>
+            <input type="text" name="myfathername" id="namef" placeholder="enter father name">
+        </div>
+        <br>
+        <label for="namem">Mother Name</label>
+        <div>
+            <input type="text" name="mymothername" id="namem" placeholder="enter mother name">
+        </div>
+        <br>
+        <label for="class">Class 12th marks</label>
+        <div>
+            <input type="number" name="myclass 12th marks" id="class" placeholder="enter class 12th markes">
+        </div>
+        <br>
+        <label for="email">Email address</label>
+        <div>
+            <input type="email" name="myemialaddress" id="email">
+        </div>
+        <br>
+        <label for="phone">Phone number</label>
+        <div>
+            <input type="phone number" name="myphonenumber" placeholder="+91" id="phone">
+        </div>
+        <br>
+        <div>
+            cast: <select name="mycast">
+                <option value="general">general</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+            </select>
+            Wating: <input type="checkbox" name="mycertifecet">
+        </div>
+        <br>
+        <div><label for="date of birth">Date of birth:</label>
+            <input type="date" name="mydate of birth" id="date of birth">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="mygender"> female<input type="radio" name="mygender"> other<input
+                type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Are you sure with your Document: <input type="checkbox" name="mycheckbox">
+        </div>
+        <br>
+        <div>
+            <label for="area">Write about your self:</label><br>
+            <textarea name="mytext" id="area" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="password">Password:</label>
+        <div>
+            <input type="password" name="mypassword" id="password">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now" id="sumit">
+            <input type="reset" value="Reset" id="reset">
+        </div>
+    </form>
+</body>
+
+</html>
